@@ -24,6 +24,7 @@ public class HellobootApplication {
 		@PostMapping("/add")
 		public String add(@RequestBody String s) {
 			System.out.println(s);
+			System.out.println(s);
 			return "done";
 		}
 	}
